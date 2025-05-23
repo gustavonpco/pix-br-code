@@ -1,6 +1,6 @@
 {
   "name": "pix-br-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Biblioteca para geração de códigos Pix (Copia e Cola) e QR Codes para o sistema de pagamentos instantâneos brasileiro",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
