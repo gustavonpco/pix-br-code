@@ -45,9 +45,9 @@ export async function Pix(
   
   // Merchant Account Information - Pix
   // Domínio "br.gov.bcb.pix"
-  const merchantAccountInfo = [
-    ['00', 'br.gov.bcb.pix'],
-    ['01', chave]
+  const merchantAccountInfo: [string, string][] = [
+    ["00", "br.gov.bcb.pix"],
+    ["01", chave],
   ];
   
   // Adiciona o identificador se fornecido
@@ -79,8 +79,8 @@ export async function Pix(
   
   // Additional Data Field Template (campo adicional)
   if (identificador) {
-    const additionalDataField = [
-      ['05', txid] // Reference Label (identificador da transação)
+    const additionalDataField: [string, string][] = [
+      ["05", txid], // Reference Label (identificador da transação)
     ];
     payload += gerarCampoComSubcampos('62', additionalDataField);
   }

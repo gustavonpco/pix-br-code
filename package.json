@@ -29,11 +29,16 @@
     "banco-central",
     "emv"
   ],
-  "author": "",
+  "author": "Gustavo Napomuceno",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gustavonpco/pix-br-code.git"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@types/node": "^18.15.11",
+    "@types/qrcode": "^1.5.5",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "eslint": "^8.37.0",

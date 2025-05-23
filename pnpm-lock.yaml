@@ -18,6 +18,9 @@ importers:
       '@types/node':
         specifier: ^18.15.11
         version: 18.19.103
+      '@types/qrcode':
+        specifier: ^1.5.5
+        version: 1.5.5
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.57.1
         version: 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1)(typescript@5.8.3)
@@ -523,6 +526,9 @@ packages:
 
   '@types/node@18.19.103':
     resolution: {integrity: sha512-hHTHp+sEz6SxFsp+SA+Tqrua3AbmlAw+Y//aEwdHrdZkYVRWdvWD3y5uPZ0flYOkgskaFWqZ/YGFm3FaFQ0pRw==}
+
+  '@types/qrcode@1.5.5':
+    resolution: {integrity: sha512-CdfBi/e3Qk+3Z/fXYShipBT13OJ2fDO2Q2w5CIP5anLTLIndQG9z6P1cnm+8zCWSpm5dnxMFd/uREtb0EXuQzg==}
 
   '@types/semver@7.7.0':
     resolution: {integrity: sha512-k107IF4+Xr7UHjwDc7Cfd6PRQfbdkiRabXGRjo07b4WyPahFBZCZ1sE+BNxYIJPPg73UkfOsVOLwqVc/6ETrIA==}
@@ -2484,6 +2490,10 @@ snapshots:
   '@types/node@18.19.103':
     dependencies:
       undici-types: 5.26.5
+
+  '@types/qrcode@1.5.5':
+    dependencies:
+      '@types/node': 18.19.103
 
   '@types/semver@7.7.0': {}
 
